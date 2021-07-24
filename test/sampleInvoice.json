@@ -1,0 +1,42 @@
+{
+  "invoiceNumber": "IND-007",
+  "additionalNote": "Sample Note",
+  "paymentInstructions": {
+    "bankTransfer": "2127714",
+    "chequesPayableTo": "XYZ Coop"
+  },
+  "items": [
+    {
+      "totalWorkHours": 20,
+      "ratePerHour": 5,
+      "workExpenses": 100,
+      "materialExpenses": [
+        {
+          "materialType": "Server",
+          "materialCost": 100
+        },
+        {
+          "materialType": "Wire",
+          "materialCost": 100
+        }
+      ],
+      "laborExpenses": 250
+    },
+    {
+      "totalWorkHours": 90,
+      "ratePerHour": 9,
+      "workExpenses": 500,
+      "materialExpenses": [
+        {
+          "materialType": "GPU",
+          "materialCost": 900
+        },
+        {
+          "materialType": "Hosting",
+          "materialCost": 260
+        }
+      ],
+      "laborExpenses": 300
+    }
+  ]
+}

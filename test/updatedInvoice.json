@@ -1,0 +1,48 @@
+{
+  "data": {
+    "id": "ENTER_INVOICE_ID",
+    "invoiceNumber": "ING-008",
+    "dueDate": 1000000,
+    "additionalNote": "N/A",
+    "paymentInstructions": {
+      "bankTransfer": "2127714",
+      "chequesPayableTo": "QQQ Coop"
+    },
+    "items": [
+      {
+        "id": "ENTER_ITEMS_ID1",
+        "totalWorkHours": 50,
+        "ratePerHour": 5,
+        "workExpenses": 100,
+        "materialExpenses": [
+          {
+            "materialType": "ZX",
+            "materialCost": 100
+          },
+          {
+            "materialType": "NN",
+            "materialCost": 100
+          }
+        ],
+        "laborExpenses": 250
+      },
+      {
+        "id": "ENTER_ITEMS_ID2",
+        "totalWorkHours": 90,
+        "ratePerHour": 9,
+        "workExpenses": 500,
+        "materialExpenses": [
+          {
+            "materialType": "PP",
+            "materialCost": 900
+          },
+          {
+            "materialType": "LL",
+            "materialCost": 260
+          }
+        ],
+        "laborExpenses": 300
+      }
+    ]
+  }
+}
