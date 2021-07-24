@@ -72,7 +72,7 @@ The API documentation to the example app is described below.
 
 `POST /apis/deleteInvoice/`
 
-    curl -i -H 'Accept: application/json' -d 'id=60fbd301c785a026383606d9'  http://localhost:3000/apis/deleteInvoice
+    curl -i -H 'Accept: application/json' -d 'id=INVOICE_ID'  http://localhost:3000/apis/deleteInvoice
 
 ### Response
 
